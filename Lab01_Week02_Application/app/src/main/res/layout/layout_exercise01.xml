@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="100px"
+        android:textSize="45px"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:text="20145393_PhạmVũĐăngKhoa_LinearLayout_Ex01"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100px"
+        >
+
+        <TextView
+            android:id="@+id/txtUsername"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50px"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="UserName"
+            android:textSize="40px"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="300px"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40px"
+            android:layout_weight="3"
+            android:hint="User Name"
+            android:textSize="40px" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30px"
+        >
+        <TextView
+            android:id="@+id/txtPhoneNum"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="40px"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:text="Phone No"
+            android:layout_marginLeft="50px"
+            />
+        <EditText
+            android:layout_width="300px"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textSize="40px"
+            android:hint="Phone No"
+            android:layout_marginRight="40px"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30px"
+        >
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50px"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="Email ID"
+            android:textSize="40px"
+            android:textStyle="bold" />
+        <EditText
+            android:layout_width="300px"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textSize="40px"
+            android:hint="Email"
+            android:layout_marginRight="40px"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50px">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250px"
+            android:background="@color/purple_200"
+            android:text="Cancel"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200px"
+            android:background="@color/purple_200"
+            android:text="Submit"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
